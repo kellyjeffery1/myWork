@@ -1,0 +1,58 @@
+@media (min-width: 0px) {
+  .about-me {
+    margin: 2% auto;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+    width: 100%;
+  }
+
+  .about-me-text {
+    text-align: left;
+    width: 100%;
+    color: gray;
+  }
+
+  h4{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: gray;
+  }
+
+  .section-titles{
+    margin-top: 7%;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    color: gray;
+    text-align: left;
+    margin-left: 300px;
+
+  }
+
+  .about-me{
+    margin-top: 3%;
+  }
+
+.line-seperator{
+  height: 1px;
+  width: 800px;
+  background: linear-gradient(130.62deg, gray 9.56%, white 94.35%);
+  text-align: left;
+  margin-left: 300px;
+}
+
+
+
+@media (min-width: 992px) {
+  .about-me {
+  padding: 0 10% 0 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-me {
+  padding: 0 20% 0 20%;
+  }
+}
