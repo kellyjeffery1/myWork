@@ -43,10 +43,15 @@
   margin-left: 300px;
 }
 
-
+img {
+  margin: 30px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
 
 @media (min-width: 992px) {
-  .about-me {
+  .about-me{
   padding: 0 10% 0 10%;
   }
 }
@@ -55,4 +60,22 @@
   .about-me {
   padding: 0 20% 0 20%;
   }
+}
+
+@media (max-width: 768px) {
+    img {
+      margin: 30px;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+  img {
+      margin: 30px;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
 }
