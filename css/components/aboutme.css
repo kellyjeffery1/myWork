@@ -21,17 +21,15 @@
   }
 
   .section-titles{
-    margin-top: 7%;
+    margin-top: 5%;
     letter-spacing: 3px;
     font-family: 'Oswald', sans-serif;
     width: 100%;
     color: gray;
     text-align: left;
-    margin-left: 300px;
-
+    margin-left: 37pc;
   }
-
-  .about-me{
+   .about-me{
     margin-top: 3%;
   }
 
@@ -40,7 +38,7 @@
   width: 800px;
   background: linear-gradient(130.62deg, gray 9.56%, white 94.35%);
   text-align: left;
-  margin-left: 300px;
+
 }
 
 img {

@@ -6,29 +6,12 @@
   background-size: cover;
   height: 100vh;
   width:100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   color: white;
 }
-
-.banner p {
+.banner {
   padding-top: 1%;
   letter-spacing: 2px;
 }
-
-.myname {
-  font-weight: 30px;
-  letter-spacing: 3px;
-  font-family: 'Oswald', sans-serif;
-}
-
-.mywork {
-  letter-spacing: 3px;
-}
-
 .greyfont {
   text-decoration: none;
   font-size: 30px;
@@ -42,6 +25,50 @@
   color: white;
   opacity: 0.6;
 }
+/*.button_option{
+  display: flex;
+  align-items: right;
+}*/
+
+.about-btn{
+  margin-left: 5%;
+  position: relative;;
+  padding: 16px 17px;
+  background: none;
+  color: white;
+  font-size: 30px;
+  border: 3px solid white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+  border-radius: 80px;
+  z-index: 7;
+}
+.about-btn:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.contact-btn{
+  position: relative;
+  padding: 15px 17px;
+  background: none;
+  color: white;
+  font-size: 30px;
+  border: 3px solid white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+  border-radius: 80px;
+  z-index: 20;
+}
+
+.contact-btn:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
 
 
 

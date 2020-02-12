@@ -9,25 +9,29 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="banner">
     <div class="banner-contents">
-      <h1 class="myname">KELLY JEFFERY</h1>
-      <h2 class="mywork">Full Stack Developer</h2>
-       <a href="https://github.com/kellyjeffery1" target="_blank>" class="greyfont"><i class="fab fa-github-square mx-2"></i></a>
-       <a href="https://www.linkedin.com/in/kelly-jeffery-075b71177/" target="_blank>" class="greyfont"><i class="fab fa-linkedin mx-2"></i></a>
-       <a href='http://twitter.com/' target ="_blank" class="icon-grey greyfont"><i class="fab fa-twitter-square"></i></a>
-      <p>Welcome to my portfolio</p>
+      <h1 class="ml4">
+        <span class="letters letters-1">Kelly Jeffery</span>
+        <span class="letters letters-2">Full-Stack-Developer</span>
+        <span class="letters letters-3">Girl That Codes!</span>
+      </h1>
+
+    <div class="button_option">
+      <button  class="about-btn  p-2">About</button>
+      <button  class="contact-btn p-2">Contact</button>
     </div>
-   <i class="down-arrow fas fa-arrow-circle-down"></i>
   </div>
+</div>
+
 
   <div class="section">
     <h2 class="section-titles">ABOUT ME</h2>
     <div class="project-line-seperator"></div>
-      <div class="line-seperator"></div>
       <div class="row about-me">
         <div class="col-sm-12 col-lg-12 about-me-text">
           <h4>Profile</h4>
@@ -44,7 +48,16 @@
           Achieved a final grade of DDD* which is the equivalent to 3 A's at A level.</p>
 
           <h4>skills</h4>
-          <p>I don't do anything half-heartedly and that applies to running too. I am a keen endurance runner and have completed various trail/ultra-marathons and multi-sport races.</p>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>Relational databases, SQL, Postgres</li>
+            <li>ES6 Javascript</li>
+            <li>Test driven development</li>
+            <li>APIs. JSON, scraping</li>
+            <li>HTML, CSS\SCSS, Boostrap</li>
+            <li>Wireframes, prototyping, UI design</li>
+            <li>Git, Github, technical workflow</li>
+          </ul>
 
           <img src="./images/IMG_3549.jpg" alt="me" id=:avatar>
           <img src="./images/batch_319-15.jpg" alt="me" id=:avatar>
@@ -52,6 +65,7 @@
         </div>
       </div>
     </div>
+
 
     <div class="section">
       <h2 class="section-titles">MY WORK</h2>
@@ -80,34 +94,62 @@
         </div>
 
 
-        <div class="section">
-      <h2 class="section-titles">MY WORK</h2>
-      <div class="row project">
-        <div class="col-md-12 col-xl-4 project-description">
-          <h3 class="project-title">BOOKMARK</h3>
-          <p>Bookmark, an app where you find recommendations and opinions from the people you trust. The app built with Ruby on Rails, HTML, SCSS, Ajax, Active Record, JavaScript, Cloudinary focused on movie recommendations but can grow to include other media types. Presented in front of 200+ people at the Barbican Center.</p>
-          <a href="http://www.bkmthis.com/" target="_blank" style="text-decoration: underline; color:gray">Go to App</a>
-        </div>
-        <div class="col-md-12 col-xl-8 project-items">
-          <div class="project-containers">
-            <img class="project-img" src="./images/pic1.jpg" alt="">
-            <div class="card-info-onclick hidden">
-              <h4>About</h4>
-              <p>On the home page see the top 5 films that have been recommended</p>
-              <p>Decide where you want go and what you want to watch</p>
-            </div>
-          </div>
-          <div class="project-containers">
-            <img class="project-img" src="./images/pic2.jpg" alt="">
-            <div class="card-info-onclick hidden">
-              <h4>Search</h4>
-              <p>See all the movies you have to choose from, bookmark ones that you want to watch and reccomend the ones youve seen!</p>
-            </div>
-          </div>
-        </div>
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="javascript/text.js"></script>
 
 </body>
 </html>
+
+
+<!-- <a href="https://github.com/kellyjeffery1" target="_blank>" class="greyfont"><i class="fab fa-github-square mx-2"></i></a>
+<a href="https://www.linkedin.com/in/kelly-jeffery-075b71177/" target="_blank>" class="greyfont"><i class="fab fa-linkedin mx-2"></i></a>
+<a href='http://twitter.com/' target ="_blank" class="icon-grey greyfont"><i class="fab fa-twitter-square"></i></a>
+
+ -->
+
+
+
+<!-- <div class="section">
+  <h2 class="section-titles">MY WORK</h2>
+  <div class="row project">
+    <div class="col-md-12 col-xl-4 bookmark-description">
+      <h3 class="bookmark-title">Bookmark</h3>
+      <p>Bookmark, an app where you find recommendations and opinions from the people you trust. The app built with Ruby on Rails, HTML, SCSS, Ajax, Active Record, JavaScript, Cloudinary focused on movie recommendations but can grow to include other media types. Presented in front of 200+ people at the Barbican Center.</p>
+      <a href="http://www.bkmthis.com/" target="_blank" style="text-decoration: underline; color:gray">Go to App</a>
+    </div>
+
+    <div class="col-md-12 col-xl-8 project-examples">
+      <div class="project-examples">
+        <img class="bookmark-img" src="./images/pic1.jpg" alt="">
+          <div class="card-info-onclick hidden">
+            <h4>Landing</h4>
+            <p>A simple, well designed landing page that encourages users to explore through bookmark and see what they would like to watch and see what their friends are watching.</p>
+          </div>
+      </div>
+
+      <div class="project-examples">
+        <img class="bookmark-img" src="./images/pic2.jpg" alt="">
+          <div class="card-info-onclick hidden">
+            <h4>Search</h4>
+            <p>See all the movies you have to choose from, bookmark ones that you want to watch and reccomend the ones youve seen!</p>
+          </div>
+      </div>
+
+      <div class="project-examples">
+        <img class="bookmark-img" src="./images/pic.jpg" alt="">
+          <div class="card-info-onclick hidden">
+            <h4>profile</h4>
+            <p>On your profile, show your friends what you have been watching, and reccomend films that you think that will like.</p>
+          </div>
+      </div>
+
+      <div class="project-examples">
+        <img class="bookmark-img" src="./images/pic4.jpg" alt="">
+          <div class="card-info-onclick hidden">
+            <h4>Whats up</h4>
+            <p>See what all your friends are reccommeding and liking by just going on the whats up page.</p>
+          </div>
+      </div>
+    </div>
+ </div>
+ -->
